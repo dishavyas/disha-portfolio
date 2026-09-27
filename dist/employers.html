@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Contact Disha Vyas about roles, projects, interviews and collaborations.">
+  <title>Send Disha a message — Employers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2307111f'/%3E%3Ctext x='12' y='42' fill='%238ee4da' font-family='sans-serif' font-size='29'%3EDV%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="employers.css">
+  <link rel="stylesheet" href="employer-theme.css">
+</head>
+<body class="employer-page">
+  <div class="noise" aria-hidden="true"></div>
+  <header class="employer-header"><a class="brand" href="index.html"><span>DV</span><em>portfolio / 2026</em></a><a href="index.html#employer-message">← Back to portfolio</a></header>
+  <main class="message-layout">
+    <section class="message-intro" aria-labelledby="page-title">
+      <p class="kicker">A CONVERSATION STARTS HERE</p>
+      <h1 id="page-title">Your next idea.<br><em>My next challenge.</em></h1>
+      <p>Hiring, planning a project, or just want to connect? Leave me a message.</p>
+      <div class="direct-contact"><span>DIRECT EMAIL</span><a href="mailto:dishavyas1008@gmail.com">dishavyas1008@gmail.com</a></div>
+      <p class="note">Your name and email help me reply. Share a job description, an interview invitation, project details, or anything else you’d like me to know.</p>
+    </section>
+    <section class="message-panel" aria-labelledby="form-title">
+      <h2 id="form-title">Write to Disha</h2>
+      <form id="employer-form" action="https://formsubmit.co/dishavyas1008@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New employer message — Disha Vyas portfolio">
+        <input type="hidden" name="_template" value="table">
+        <div class="form-row">
+          <div class="field"><label for="sender-name">Your name <span>(required)</span></label><input id="sender-name" name="name" autocomplete="name" maxlength="150" required placeholder="Full name"></div>
+          <div class="field"><label for="sender-email">Your email <span>(required)</span></label><input id="sender-email" name="email" type="email" autocomplete="email" maxlength="254" required placeholder="you@company.com"></div>
+        </div>
+        <div class="field"><label for="sender-company">Company <span>(optional)</span></label><input id="sender-company" name="company" autocomplete="organization" maxlength="200" placeholder="Company or team name"></div>
+        <div class="field"><label for="sender-message">Your message <span>(required)</span></label><textarea id="sender-message" name="message" rows="7" maxlength="20000" required placeholder="Tell me what you have in mind…"></textarea></div>
+        <div class="trap" aria-hidden="true"><label for="website-check">Leave this empty</label><input id="website-check" name="_honey" tabindex="-1" autocomplete="off"></div>
+        <p class="form-note">FormSubmit processes your submission and forwards it to Disha. You may be asked to complete a spam check.</p>
+        <button class="button primary" type="submit" id="send-message">Submit message <span aria-hidden="true">↗</span></button>
+        <p id="submission-status" role="status" aria-live="polite"></p>
+      </form>
+      <p class="email-fallback">Prefer your email app? <a href="mailto:dishavyas1008@gmail.com">Email Disha directly</a>.</p>
+    </section>
+  </main>
+  <footer><span>© 2026 DISHA VYAS</span><a href="index.html#work">EXPLORE MY WORK ↗</a></footer>
+  <script src="employers.js"></script>
+</body>
+</html>

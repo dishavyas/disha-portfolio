@@ -1,19 +1,19 @@
 # Disha Vyas — Developer Portfolio
 
-An interactive developer portfolio with animated sections, project case studies, a terminal, and an employer contact form.
+Interactive portfolio with animations, project case studies, a terminal and employer contact form.
 
-## Run locally
+## Local preview
 
-Serve the `dist` directory with any static web server, for example:
+Run `python -m http.server 8000 --directory dist` and open http://localhost:8000.
 
-```sh
-python -m http.server 8000 --directory dist
-```
+## Vercel
 
-## Deploy on Vercel
+Import this repository. The included vercel.json uses dist as the output directory with no build step.
 
-Import this repository into Vercel. The included `vercel.json` configures `dist` as the output directory; no build step is required.
+## Contact
 
-## Contact form
+The contact form uses FormSubmit. Email activation and a delivery test are required before relying on submissions.
 
-The form uses FormSubmit. The owner must activate the form through the confirmation email before delivery is available.
+## Resume
+
+The resume PDF is pending permission for public upload. Resume download links will work once dist/Disha-Vyas-Resume-2026.pdf is added.
